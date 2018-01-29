@@ -4,7 +4,8 @@
   <link href="https://fonts.googleapis.com/css?family=Damion" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Rubik" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,600,700" rel="stylesheet">
-  <link rel="stylesheet" href="./resources/css/reset.css">
+  <link rel="stylesheet" href="./resources/css/reset.css" type="text/css">
+  <link rel="stylesheet" href="./resources/css/style.css" type="text/css">
 </head>
 <body>
   <!-- Header -->
@@ -18,6 +19,17 @@
           <li><a href="https://www.instagram.com/">Follow us <img class="icon" src="./resources/images/instagram.png"></a></li>
         </ul>
       </nav>
+
+      <nav class="tablet">
+        <ul>
+          <li><a href="index.html">Fotomatic</a></li>
+          <li><a href="#">Product detail</a></li>
+          <li><a href="#">About us</a></li>
+          <li><a href="https://www.instagram.com/">Follow us <img class="icon" src="./resources/images/instagram.png"></a></li>
+          <li><a href="#" class="button">Join us</a></li>
+        </ul>
+      </nav>
+
       <nav class="mobile">
         <ul>
           <li><a href="#"><img src="./resources/images/ic-logo.svg"></a></li>
@@ -55,7 +67,7 @@
       <div class="feature">
         <div class="center">
           <div class="image-container">
-            <img src="images/feature-1.png" />
+            <img src="./resources/images/feature-1.png" />
           </div>
           <div class="content">
             <h2>Advanced, automatic, instant</h2>
@@ -66,7 +78,7 @@
       <div class="feature">
         <div class="center">
           <div class="image-container">
-            <img src="images/feature-2.png" />
+            <img src="./resources/images/feature-2.png" />
           </div>
           <div class="content">
             <h2>Beautifully crafted inside-out</h2>
@@ -98,19 +110,27 @@
       </div>
     </div>
 
-    <!-- Quotes Section
+    <!-- Quotes Section -->
     <div id="quotes-section">
       <div class="content center">
-        <span class="quote">“It’s truly something that could create a brand new photography Renaissance”</span>
-        <img class="quote-citation" src="./resources/images/photography-logo.png" />
+        <div>
+          <span class="quote">“It’s truly something that could create a brand new photography Renaissance”</span>
+        </div>
+        <div>
+          <img class="quote-citation" src="./resources/images/photography-logo.png" />
+        </div>
       </div>
     </div>
 
     <!-- Footer -->
     <footer>
       <div class="content">
-        <span class="copyright">© 2016  Fotomatic, All Rights Reserved</span>
-        <span class="location">Designed in NYC</span>
+        <div class="copyright">
+          <span>© 2016  Fotomatic, All Rights Reserved</span>
+        </div>
+        <div class="location">
+          <span>Designed in NYC</span>
+        </div>
       </div>
     </footer>
 
